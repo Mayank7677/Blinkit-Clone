@@ -1,0 +1,3373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/7d483e5e1a.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- navbar -  -->
+
+    <header class="sticky top-0 bg-white w-[100%] lg:flex lg:justify-evenly lg:items-center h-[90px] max-lg:h-[130px] max-lg:flex max-lg:flex-col justify-center lg:border-2 z-50"> 
+
+        <a href="">
+            <div class="max-lg:hidden">
+                <img src="/blinkit/bl_logo.png.png" alt="" class="max-w-[150px] ">
+            </div>
+        </a>
+
+
+        <div class="max-lg:mt-[10px] flex justify-between pr-[20px] pl-[20px]"> 
+            <div>
+
+                <div><p class="font-extrabold">Delivery in 8 minutes</p></div>
+
+              <div class="flex">
+                
+                  <div>
+                    <p>Jaipur , Rajasthan , India</p>
+                  </div>
+
+                   <div>
+                       <select>
+                           <option></option>
+                        </select>
+                   </div>
+
+               </div>
+            </div>
+
+            <div class="lg:hidden">
+                <a href="#"><i class="fa-regular fa-user"></i></a>
+            </div>
+        </div>
+
+        <div class="flex border-2 rounded-lg p-[13px] max-lg:mt-[10px] max-lg:mr-[20px] max-lg:ml-[20px] ">
+
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="pl-[10px] w-[570px] lg:w-[400px]">
+                <input placeholder="Search any product">
+            </div>
+        </div>
+
+        <div class="max-lg:hidden hover:scale-110 duration-700 ">
+             <a href="#"><p class="text-lg">Login</p></a>
+        </div>
+
+        <div class="max-lg:hidden">
+
+           <div class="bg-green-500 rounded-lg p-[10px]">
+            <a href="#" class="flex">
+                <div class="mr-[10px]">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+    
+                <div>
+                    <p>My Cart</p>
+                </div>
+               </a>
+           </div>
+
+        </div>
+
+
+
+    </header>
+
+
+
+
+      <!-- item section 1 after Responsive  -->
+   <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[20px] w-[100%] ">
+    <div>
+
+
+        <div class="flex justify-between lg:hidden ml-[1%]">
+            <div>
+                <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">Best Sellers</p>
+            </div>
+
+            <div>
+                <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+            </div>
+        </div>
+
+
+        <div class="flex justify-between hidden">
+            <div>
+                <p class="text-[24px] font-bold">Dairy , Bread and Milk</p>
+            </div>
+
+            <div>
+                <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="max-md:grid  max-md:grid-cols-3 max-md:grid-rows-2 max-md:mt-[20px] max-md:gap-x-5 max-md:gap-y-5 max-lg:grid max-lg:grid-cols-6 max-lg:gap-x-5 lg:hidden">
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Amul Gold Full Cream Milk</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >500 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹34</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ba929c05-aba2-4838-b674-e2072089022b.jpg?ts=1712325614" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Mother Dairy Cow Fresh Milk</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >400 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹35</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e3f63e12-631f-4193-9160-ea4ddcbd6c5c.jpg?ts=1711189562" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Mother Dairy Fresh Tone Milk</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >500 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹28</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a9b8e4d0-62ae-4a55-b0f7-c07d16a09326.jpg?ts=1707564212" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Harvest Gold - White Bread</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >350 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹40</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/8f6bfafc-ad44-422a-8e96-7e2d2994012a.jpg?ts=1707998856" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Mother Dairy Full Cream Milk</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >500 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹34</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/be2b8d5d-1d96-4392-a3e7-a8df23933584.jpg?ts=1710313956" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">English Oven : Brown Bread</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >400 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹50</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+       
+
+
+    </div>
+   </section>
+
+
+
+
+
+    <!-- main page images section and responsive -->
+
+    <section class="lg:pl-[10%] lg:pr-[10%] ">
+
+        <a href="#"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=2160/layout-engine/2022-05/Group-33704.jpg" alt="" class="hover:scale-95 duration-1000 max-lg:hidden "></a>
+
+
+        <div class="grid grid-cols-3 gap-x-5 mr-[10px] ml-[10px] mt-[15px] max-lg:hidden ">
+
+            <a href="#" class="hover:scale-95 duration-1000">
+                <div>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg" alt="">
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-1000">
+                <div>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/Pet-Care_WEB.jpg" alt="">
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-1000">
+                <div>
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-03/babycare-WEB.jpg" alt="">
+                </div>
+            </a>
+
+        </div>
+
+
+        <div class="flex flex-col justify-center max-lg:mt-[35px]">
+
+            <div class="lg:hidden ml-[5%]">
+                <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">Shop by Category</p>
+            </div>
+    
+    
+            <div class="lg:grid lg:grid-cols-10 lg:grid-rows-2 mt-[20px] max-sm:mt-[10px] max-sm:grid max-sm:grid-rows-5 max-sm:grid-cols-4 sm:grid sm:grid-rows-4 sm:grid-cols-5">
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-12/paan-corner_web.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-2_10.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-3_9.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-4_9.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-5_4.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-6_5.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-7_3.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-8_4.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-9_3.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-10.png" alt="">
+                    </div>
+                </a>
+    
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-11.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-12.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-13.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-14.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-15.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-16.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-17.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-18.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-19.png" alt="">
+                    </div>
+                </a>
+    
+                <a href="#" class="hover:scale-95 duration-1000">
+                    <div>
+                        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-20.png" alt="">
+                    </div>
+                </a>
+         
+    
+            </div>
+
+
+        </div>
+        
+    </section>
+
+
+
+
+    <!-- responsive shop by store section  -->
+
+    <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[20px] w-[100%] ">
+
+        <div>
+
+
+            <div class="flex justify-between lg:hidden ml-[1%] items-center">
+                <div>
+                    <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">Shop by Store</p>
+                </div>
+    
+                <div>
+                    <a href="#"><p class="text-[20px] text-green-600 pb-[5px]">see all</p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-md:grid  max-md:grid-cols-3 max-md:grid-rows-2 max-md:mt-[20px] max-md:gap-x-5 max-md:gap-y-5 max-lg:grid max-lg:grid-cols-6 max-lg:gap-x-5 lg:hidden">
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl w-auto h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2023-07/toys-store_1.png" alt="">
+                    </div>
+            
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Toy
+                             Store</p>
+                    </div>
+                </div>
+            </a>
+
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl w-auto h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-05/Sports-Store-1.png" alt="">
+                    </div>
+            
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Sports
+                             Store</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl w-auto h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-08/Party-Store-v15.png" alt="">
+                    </div>
+            
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Party
+                             Store</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl w-auto h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-04/Ice-cream-store-ICON.png" alt="">
+                    </div>
+            
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Dessert
+                             Store</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl w-auto h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2023-07/electrics-store.png" alt="">
+                    </div>
+            
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Electronics
+                             Store</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl w-auto w-[100px] h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2023-07/stationery-store.png" alt="">
+                    </div>
+            
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Stationary
+                             Store</p>
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- item section 2 after Responsive  -->
+
+    <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[20px] w-[100%] ">
+        <div>
+    
+    
+            <div class="flex justify-between lg:hidden ml-[1%]">
+                <div>
+                    <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">Hot Deals</p>
+                </div>
+    
+                <div>
+                    <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+                </div>
+            </div>
+    
+    
+            <div class="flex justify-between hidden">
+                <div>
+                    <p class="text-[24px] font-bold">Dairy , Bread and Milk</p>
+                </div>
+    
+                <div>
+                    <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="max-md:grid  max-md:grid-cols-3 max-md:grid-rows-2 max-md:mt-[20px] max-md:gap-x-5 max-md:gap-y-5 max-lg:grid max-lg:grid-cols-6 max-lg:gap-x-5 lg:hidden">
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/56692a.jpg?ts=1687948908" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Catch Cumin Seeds / Jeera Seeds</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >100 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹60</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/3a474f33-1b7e-4703-8dbc-37fa7cab0322.jpg?ts=1713777273" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Whole Farm Grocery Raisins</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >200 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹65</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a90d560c-fb38-4a7e-84ca-775dbb3f6256.jpg?ts=1727623703" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Nut-Toppers Premium Dates</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >400 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹122</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/bc686e5d-fd56-4938-9527-947c6f1af5d1.jpg?ts=1723793954" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Parle Premium Real Elaichi Rusk</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >1 kg</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹147</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/496933a.jpg?ts=1698063883" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Bebe Batasha</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >150 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹25</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/aa4ea387-fc1a-4fa6-86e0-e10e7aaf8b0a.jpg?ts=1728478763" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Borges Extra Virgin Olive Oil</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >1 l</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹1500</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+           
+    
+    
+        </div>
+       </section>
+
+
+
+
+    <!-- item section 3 after Responsive  -->
+
+    <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[50px] w-[100%] ">
+        <div>
+    
+    
+            <div class="flex justify-between lg:hidden ml-[1%]">
+                <div>
+                    <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">Your Daily Fesh Needs</p>
+                </div>
+    
+                <div>
+                    <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+                </div>
+            </div>
+    
+    
+            <div class="flex justify-between hidden">
+                <div>
+                    <p class="text-[24px] font-bold">Dairy , Bread and Milk</p>
+                </div>
+    
+                <div>
+                    <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="max-md:grid  max-md:grid-cols-3 max-md:grid-rows-2 max-md:mt-[20px] max-md:gap-x-5 max-md:gap-y-5 max-lg:grid max-lg:grid-cols-6 max-lg:gap-x-5 lg:hidden">
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b283b94a-99c5-4da2-ac5e-925b51def187.jpg?ts=1713869084" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Thai Guava</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >2 Pieces</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹60</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1d7979f2-1f45-4b37-8372-f1b52568969b.jpg?ts=1727434247" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Kashmiri Apples</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >4 Pieces</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹100</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/146811a.jpg?ts=1690805809" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Groundnuts</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >400 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹90</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/447624a.jpg?ts=1690806010" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Kale Leaves</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >100 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹30</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/82da095c-a26b-4c23-b745-a3f4679d80c2.jpg?ts=1711808798" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Spinach</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >150 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹10</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/4988a375-ccc1-41ca-98d1-effd698f8a76.jpg?ts=1708587809" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Broad Beans</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >500 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹30</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+           
+    
+    
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Responsive cooking ideas section   -->
+
+    <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[50px] w-[100%] ">
+
+        <div>
+
+
+            <div class="flex justify-between lg:hidden ml-[1%] items-center">
+                <div>
+                    <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">Cooking Ideas</p>
+                </div>
+    
+                <div>
+                    <a href="#"><p class="text-[20px] text-green-600 pb-[5px]">see all</p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-md:grid  max-md:grid-cols-3 max-md:grid-rows-2 max-md:mt-[20px] max-md:gap-x-5 max-md:gap-y-5 max-lg:grid max-lg:grid-cols-6 max-lg:gap-x-5 lg:hidden">
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/assets/search/usecase/palak_dal_01.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Palak
+                             Dal</p>
+                    </div>
+                </div>
+            </a>
+
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/assets/search/usecase/paneer_makhanwala_01.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Panner
+                             Makhanwala</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/assets/search/usecase/keema_masala_01.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Keema
+                             Masala</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/assets/search/usecase/chana_masala_01.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Chana
+                             Masala</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/assets/search/usecase/green_pea_pulao_01.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Green
+                             Pea Pulao</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/assets/search/usecase/aloo_chole_01.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Aloo
+                             Chole</p>
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- responsive tried this section  -->
+
+    <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[50px] w-[100%] ">
+
+        <div>
+
+
+            <div class="flex justify-between lg:hidden ml-[1%] items-center">
+                <div>
+                    <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">Have you tried these yet?</p>
+                </div>
+    
+                <div class="hidden">
+                    <a href="#"><p class="text-[20px] text-green-600 pb-[5px]">see all</p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-sm:grid  max-sm:grid-cols-2 max-sm:grid-rows-2 max-sm:mt-[20px] max-sm:gap-x-5 max-sm:gap-y-5 max-lg:grid max-lg:grid-cols-4 max-lg:gap-x-5 lg:hidden max-lg:mt-[20px]">
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-03/Property-1Home.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Home Essentials</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-03/Property-1Travel.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Travel Essentials</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-03/Property-1Fashion.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Fashion Basics</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-03/Property-1Plants.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Plants & More</p>
+                    </div>
+                </div>
+            </a>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+      <!-- item section 4 after Responsive  -->
+
+      <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[50px] w-[100%] ">
+        <div>
+    
+    
+            <div class="flex justify-between lg:hidden ml-[1%]">
+                <div>
+                    <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">Trending in your Area</p>
+                </div>
+    
+                <div>
+                    <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+                </div>
+            </div>
+    
+    
+            <div class="flex justify-between hidden">
+                <div>
+                    <p class="text-[24px] font-bold">Dairy , Bread and Milk</p>
+                </div>
+    
+                <div>
+                    <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="max-md:grid  max-md:grid-cols-3 max-md:grid-rows-2 max-md:mt-[20px] max-md:gap-x-5 max-md:gap-y-5 max-lg:grid max-lg:grid-cols-6 max-lg:gap-x-5 lg:hidden">
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/app/assets/products/sliding_images/jpeg/7513fb7c-e765-45d5-894c-cde85561a520.jpg?ts=1723098444" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Barilla Penne Rigate Pasta</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >500 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹300</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/app/assets/products/sliding_images/jpeg/0d4b301c-eba1-4e3e-bfdd-0e5a6d5aa8ac.jpg?ts=1707809155" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Honey Twigs Ginger Infused Honey</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >250 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹300</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/app/images/products/sliding_image/482708a.jpg?ts=1688628428" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">The Gourmet Jar Roasted Red Pepper Pesto Spread</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >300 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹280</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/app/images/products/sliding_image/524811a.jpg" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Cremeitalia African Peri Peri Dip</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >150 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹200</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/app/assets/products/sliding_images/jpeg/56bc7798-59df-4738-b910-1ac9cc7273d2.jpg?ts=1723799642" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Cookieman With Love Cookie Gift Tin</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >300 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹370</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+            <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+                <div >
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/app/assets/products/sliding_images/jpeg/1afbb038-b020-456d-b95f-2d66b083518b.jpg?ts=1717504962" alt="">
+                </div>
+    
+                <a href="">
+                    <div>
+                    
+                        <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                            <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                            <div><p class="text-[10px]">8 mins</p></div>
+                        </div>
+        
+                        <div>
+                            <p class="font-bold text-[13px] mt-[5px] truncate">Flyberry Gourmet Pecan Nuts</p>
+                        </div>
+        
+                        <div>
+                            <p class="text-[12px] text-stone-400 mt-[10px]" >150 g</p>
+                        </div>
+        
+                        <div class="flex justify-between mt-[10px] items-center">
+        
+                            <div class="h-[14px] w-[22px]">
+                                <p class="text-[12px] font-bold">₹600</p>
+                            </div>
+        
+                            <div >
+                                <button class="w-[50px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+            </div>
+    
+           
+    
+    
+        </div>
+    </section>
+
+
+
+
+
+    <!-- responsive cleaning image section  -->
+
+    <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[50px] w-[100%] lg:hidden">
+
+        <a href="#" >
+            <div class="hover:scale-95 duration-700">
+                <img class="w-full" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2024-07/1718624389849-Household-cleaning-essentials-KVI-slice-top.png" alt="">
+            </div>
+        </a>
+
+
+        <!-- <div class="grid grid-cols-4 gap-x-5 lg:hidden bg-cyan-50">
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100%] w-[100%] h-auto" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-07/1718624426915-Surface-Cleaners-Fresheners.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Surface Cleaners</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl  h-[100%] w-[100%]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-07/1718624437262-Cleaning-Tools-Accessories.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Cleaning Tools</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100%] w-[100%]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-07/1718624445022-Trash-Disposal.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Trash Dispoals</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100%] w-[100%]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2024-07/1718624452674-Smart-Cleaning-Gadgets.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Cleaning Gadgets</p>
+                    </div>
+                </div>
+            </a>
+
+
+
+        </div> -->
+
+    </section>
+
+
+
+
+
+    <!-- responsive got you covered section  -->
+
+    <section class="max-lg:pl-[3%] max-lg:pr-[3%] max-lg:mt-[50px] w-[100%] ">
+
+        <div>
+
+
+            <div class="flex justify-between lg:hidden ml-[1%] items-center">
+                <div>
+                    <p class="max-sm:text-lg max-sm:font-extrabold text-[18px] font-extrabold">We got you covered</p>
+                </div>
+    
+                <div class="hidden">
+                    <a href="#"><p class="text-[20px] text-green-600 pb-[5px]">see all</p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-sm:grid  max-sm:grid-cols-2 max-sm:grid-rows-2 max-sm:mt-[20px] max-sm:gap-x-5 max-sm:gap-y-5 max-lg:grid max-lg:grid-cols-4 max-lg:gap-x-5 lg:hidden max-lg:mt-[20px]">
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/layout-engine/2023-07/Condoms_0.jpg" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Sexual Wellness</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/layout-engine/2023-04/Oral-Care.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Oral Care</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/layout-engine/2023-04/Feminine-Hygiene.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Period Care Essentials</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="hover:scale-95 duration-700">
+                <div>
+
+                    <div>
+                        <img class="rounded-xl h-[100px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/layout-engine/2023-04/Pharma.png" alt="">
+                    </div>
+    
+                    <div class="text-center pt-[10px]">
+                        <p class="whitespace-pre-line text-[13px] font-medium" >Pharmacy Needs</p>
+                    </div>
+                </div>
+            </a>
+
+
+
+        </div>
+
+    </section>
+
+   
+
+
+
+
+
+   <!-- item section 1  -->
+   <section class="pl-[11%] pr-[11%] mt-[50px] w-[100%] max-lg:hidden">
+    <div>
+
+        <div class="flex justify-between">
+            <div>
+                <p class="text-[24px] font-bold">Dairy , Bread and Milk</p>
+            </div>
+
+            <div>
+                <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="grid grid-cols-6 mt-[20px] gap-x-5">
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Amul Gold Full Cream Milk</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >500 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹34</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ba929c05-aba2-4838-b674-e2072089022b.jpg?ts=1712325614" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Mother Dairy Cow Fresh Milk</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >400 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹35</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e3f63e12-631f-4193-9160-ea4ddcbd6c5c.jpg?ts=1711189562" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Mother Dairy Fresh Tone Milk</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >500 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹28</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a9b8e4d0-62ae-4a55-b0f7-c07d16a09326.jpg?ts=1707564212" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Harvest Gold - White Bread</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >350 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹40</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/8f6bfafc-ad44-422a-8e96-7e2d2994012a.jpg?ts=1707998856" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Mother Dairy Full Cream Milk</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >500 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹34</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/be2b8d5d-1d96-4392-a3e7-a8df23933584.jpg?ts=1710313956" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">English Oven : Brown Bread</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >400 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹50</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+       
+
+
+    </div>
+   </section>
+
+
+
+   <!-- item section 2  -->
+
+   <section class="pl-[11%] pr-[11%] mt-[50px] w-[100%] max-lg:hidden">
+    <div>
+
+        <div class="flex justify-between">
+            <div>
+                <p class="text-[24px] font-bold">Rolling paper & tobacco</p>
+            </div>
+
+            <div>
+                <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="grid grid-cols-6 mt-[20px] gap-x-5 h-auto">
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480940a.jpg?ts=1701679974" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">White Rolling Paper Tips - Elements</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >1 Pack (50 Pieces)</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹50</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506709a.jpg?ts=1685952438" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Perfect Rolled Cones (White) - Bongchie</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >3 Pieces</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹45</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506710a.jpg?ts=1685952438" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Perfect Rolled Cones (Natural) - Bongchie</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >3 Pieces</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹45</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/496997a.jpg?ts=1695623978" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">White Rolling Paper Cones - Stash Pro</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >6 Pieces</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹90</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/477464a.jpg?ts=1690813885" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Perforated Wide Tips Roachs - Raws</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >1 Pack (50 Pieces)</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹40</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/496996a.jpg?ts=1690814374" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Brown Rolling Paper Cones - Stash Pro</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >6 Pieces</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹90</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+       
+
+
+    </div>
+   </section>
+
+
+
+   <!-- item section 3  -->
+
+   <section class="pl-[11%] pr-[11%] mt-[50px] w-[100%] max-lg:hidden">
+    <div>
+
+        <div class="flex justify-between">
+            <div>
+                <p class="text-[24px] font-bold">Snacks & Munchies</p>
+            </div>
+
+            <div>
+                <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="grid grid-cols-6 mt-[20px] gap-x-5">
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6807f54d-f711-49ca-9635-514ac9b72d7f.jpg?ts=1724850859" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Jolochip Last Chip Challenge Chips</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >56 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹50</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/03e157a6-b601-48ec-b664-e44155bb1808.jpg?ts=1723100068" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">DOKi Tokyo Teriyaki Chicken Jerky</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >30 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹200</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/520069a.jpg?ts=1705909692" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Orion Turtle Spicy Devil Corn Chips</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >115 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹90</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/f20b4670-e147-4af7-8a25-c5e30ad860c2.jpg?ts=1723100071" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">DOKi Tokyo Teriyaki Buffalo Jerky</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >30 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹199</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/c7221d26-16ce-4b85-802a-b4a5aaabae13.jpg" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Orion K Snack Kimchi Onion Rings</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >70 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹50</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/3281415d-c53c-456c-8618-649f8e931c42.jpg?ts=1723099134" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Kettle Studio Wafers - Lime & Chilli</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >150 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹80</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+       
+
+
+    </div>
+   </section>
+
+
+
+   <!-- item section 4  -->
+
+   <section class="pl-[11%] pr-[11%] mt-[50px] w-[100%] max-lg:hidden">
+    <div>
+
+        <div class="flex justify-between">
+            <div>
+                <p class="text-[24px] font-bold">Hookah</p>
+            </div>
+
+            <div>
+                <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="grid grid-cols-6 mt-[20px] gap-x-5">
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/535602a.jpg?ts=1698309253" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Flat Coconut Hookah Coal Cubes by Stash Pro</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >250g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹125</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480935a.jpg?ts=1687523763" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Paan Raas Herbal Hookah Flavor (Tobacco Free) by Soex</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >50 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹100</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480927a.jpg?ts=1689328456" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Brain Freeze Up Herbal Hookah Flavor (Tobacco Free) by Soex</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >50 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹100</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480930a.jpg?ts=1687333267" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Bombay Paan Masala Herbal Hookah Flavor (Tobacco Free) by Soex</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >50 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹100</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/540990a.jpg" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Hookah Premium Plastic Filters by Rhythm Imports</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >1 Pack</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹150</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/480928a.jpg?ts=1687523762" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Chief Commissioner Herbal Hookah Flavor (Tobacco Free) by Soex</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >50 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹100</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+       
+
+
+    </div>
+   </section>
+
+
+
+      <!-- item section 5  -->
+
+   <section class="pl-[11%] pr-[11%] mt-[50px] w-[100%] max-lg:hidden">
+    <div>
+
+        <div class="flex justify-between">
+            <div>
+                <p class="text-[24px] font-bold">Cold Drinks & Juices</p>
+            </div>
+
+            <div>
+                <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="grid grid-cols-6 mt-[20px] gap-x-5">
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6b98633c-7c6a-4708-a372-e2b49da568ab.jpg?ts=1707312322" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Coca-Cola Soft Drink (750 ml)</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >750 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹45</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e69c587d-802a-40eb-a40b-a6bc9623526d.jpg?ts=1707312325" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Thums Up Soft Drink (750 ml)</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >750 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹45</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/9a7f01e0-e63e-407e-bfc9-449c165f7a1c.jpg?ts=1728051043" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Limca Lime 'N' Lemon Soft Drink 750 ml</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >750 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹45</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/97250a.jpg?ts=1688628274" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Maaza Mango Drink 1.2 l</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >1.2 l</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹75</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/311a.jpg?ts=1721583484" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Slice Mango Drink</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >600 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹40</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/122997a.jpg?ts=1688628277" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Kinley Soda Water With Extra Punch</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >750 ml</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹20</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+       
+
+
+    </div>
+   </section>
+
+
+
+
+      <!-- item section 6  -->
+
+   <section class="pl-[11%] pr-[11%] mt-[50px] w-[100%] max-lg:hidden">
+    <div>
+
+        <div class="flex justify-between">
+            <div>
+                <p class="text-[24px] font-bold">Candies & Gums</p>
+            </div>
+
+            <div>
+                <a href="#"><p class="text-[20px] text-green-600">see all</p></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="grid grid-cols-6 mt-[20px] gap-x-5">
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/425353a.jpg?ts=1697793145" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Chupa Chups Bubble Gum Lollipop (Friends Pack)</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >96 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹50</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/d02799db-82c5-47f8-acd3-5c4844f3aa29.jpg?ts=1723200654" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Trident Tropical Twist Gum (Sugar Free)</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >1 Pack</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹80</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/409776a.jpg?ts=1697793144" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Parle Orange Bite Bigger - Orangee Jhatkaa Candy</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >200 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹40</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/409777a.jpg?ts=1697793144" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Parle Kismi Assorted Candy</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >250 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹45</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/173c49b9-a4c4-4bed-acc4-c2aee58cd355.jpg?ts=1728289727" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Pulse Orange Candy</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >190 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹50</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+        <div class="border-2 rounded-lg pl-[7px] pr-[7px]  h-[275p] pb-[5px] ">
+            <div >
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/9ee95284-c4e8-4edd-a8e7-d4bc1a7eea66.jpg?ts=1723622354" alt="">
+            </div>
+
+            <a href="">
+                <div>
+                
+                    <div class="h-[15px] w-[55px] flex justify-evenly rounded-lg bg-stone-300">
+                        <div ><img class="h-[15px]" src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png" alt=""></div>
+                        <div><p class="text-[10px]">8 mins</p></div>
+                    </div>
+    
+                    <div>
+                        <p class="font-bold text-[13px] mt-[5px] truncate">Parle Kaccha Mango Bite Candies - Bigger</p>
+                    </div>
+    
+                    <div>
+                        <p class="text-[12px] text-stone-400 mt-[10px]" >200 g</p>
+                    </div>
+    
+                    <div class="flex justify-between mt-[10px] items-center">
+    
+                        <div class="h-[14px] w-[22px]">
+                            <p class="text-[12px] font-bold">₹60</p>
+                        </div>
+    
+                        <div >
+                            <button class="w-[66px] h-[32px] border border-green-500 rounded-lg"><p class="text-[13px] font-bold text-green-600">ADD</p></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </a>
+        </div>
+
+       
+
+
+    </div>
+   </section>
+
+
+
+
+
+   <!-- footer section 1  -->
+
+   <section class="pl-[11%] pr-[11%] sm:mt-[50px] pb-[50px] max-lg:pl-[5%] max-lg:pr-[5%]">
+
+    <div class="pt-[50px] grid grid-cols-2  max-lg:grid max-lg:grid-rows-2 max-lg:grid-cols-1 sm:gap-y-8">
+
+
+            <div class="flex">
+                <div>
+                    <p class="font-bold mb-[10px] text-[18px]" >Useful Links</p>
+                    <a href="#"><p class="text-slate-700 hover:text-black">About</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Career</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Blog</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Press</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Lead</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Value</p></a>
+                </div>
+        
+                <div class="ml-[50p]">
+                    <p class="font-bold mb-[10px] text-[18px] invisible" >Useful Links</p>
+                    <a href="#"><p class="text-slate-700 hover:text-black">Privacy</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Terms</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">FAQ's</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Security</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Mobile</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Contact</p></a>
+                </div>
+        
+                <div class="ml-[50x]">
+                    <p class="font-bold mb-[10px] text-[18px] invisible" >Useful Links</p>
+                    <a href="#"><p class="text-slate-700 hover:text-black">Partner</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Franchiese</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Seller</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Warehouse</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Delivery</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Resources</p></a>
+                </div>
+
+                <div class="ml-[50p] max-xl:hidden">
+                    <p class="font-bold mb-[10px] text-[18px] invisible" >Useful Links</p>
+                    <a href="#"><p class="text-slate-700 hover:text-black">Privacy</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Terms</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">FAQ's</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Security</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Mobile</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Contact</p></a>
+                </div>
+    
+            </div>
+
+
+            <div class="flex">
+                <div>
+                    <p class="font-bold mb-[10px] text-[18px]" >Categories</p>
+                    <a href="#"><p class="text-slate-700 hover:text-black">Vegetables & Fruits</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Coldrinks & Juices</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Bakery & Biscuits</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Dry Fruits, Masala & Oil</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Paan Corner</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Pharma</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Icecreams & Deserts</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Cosmetics</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Magazines</p></a>
+                    
+
+                </div>
+        
+                <div class="ml-[50px]">
+                    <p class="font-bold mb-[10px] text-[18px] invisible" >Useful Links</p>
+                    <a href="#"><p class="text-slate-700 hover:text-black">Dairy & Breakfast</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Instant & Frozen Food</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Sweet Tooth</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Organic & Premium</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Cleaning Essentials</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Personal Cares</p></a>
+                </div>
+        
+                <div class="ml-[50px] max-sm:hidden">
+                    <p class="font-bold mb-[10px] text-[18px] invisible" >Useful Links</p>
+                    <a href="#"><p class="text-slate-700 hover:text-black">Baby Care</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Home & Office</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Pet Care</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Toys & Games</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Delivery</p></a>
+                    <a href="#"><p class="text-slate-700 mt-[5px] hover:text-black">Resources</p></a>
+                </div>
+    
+            </div>
+
+
+
+    </div>
+</section>
+
+
+
+
+
+   <!-- footer section 2  -->
+
+<section class="pl-[11%] pr-[11%] mt-[20px] pb-[50px] ">
+
+
+
+    <div class="lg:grid lg:grid-cols-3 ">
+
+        <div class="flex items-center">
+
+            <p  class="text-[14px] text-slate-700">© Blink Commerce Private Limited, 2016-2024</p>
+
+        </div>
+
+
+
+
+        <div class="flex justify-evenly items-center max-lg:hidden">
+
+            <div>
+                <p class="text-[14px] font-bold text-slate-700">Download App</p>
+            </div>
+
+            <div class="w-[100px] hover:scale-110 duration-700">
+                <a href="#"><img src="https://blinkit.com/d61019073b700ca49d22.png" alt=""></a>
+            </div>
+
+            <div class="w-[100px] hover:scale-110 duration-700">
+                <a href="#"><img src="https://blinkit.com/8ed033800ea38f24c4f0.png" alt=""></a>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="flex justify-evenly items-center max-lg:hidden">
+
+            <a href="#"><div class="text-2xl hover:scale-125 duration-700 text-slate-700 hover:text-black"><i class="fa-brands fa-twitter"></i></div></a>
+            <a href="#"><div class="text-2xl hover:scale-125 duration-700 text-slate-700 hover:text-black"><i class="fa-brands fa-facebook"></i></div></a>
+            <a href="#"><div class="text-2xl hover:scale-125 duration-700 text-slate-700 hover:text-black"><i class="fa-brands fa-instagram"></i></div></a>
+            <a href="#"><div class="text-2xl hover:scale-125 duration-700 text-slate-700 hover:text-black"><i class="fa-brands fa-linkedin"></i></div></a>
+            <a href="#"><div class="text-2xl hover:scale-125 duration-700 text-slate-700 hover:text-black"><i class="fa-brands fa-threads"></i></div></a>
+
+        </div>
+
+
+    </div>
+
+    <div class="mt-[50px] max-lg:hidden">
+        <p class="text-slate-700">
+            “Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.
+        </p>
+    </div>
+
+
+
+</section>
+
+
+
+</body>
+</html>
